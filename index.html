@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>清泽心雨报名入口</title> 
+        <style>
+        /* 清泽心雨报名 */
+        /* author:Ray */
+        /* creation_time:20181107 */
+        /* last_modification_time:20181107 */
+        </style>
+        <!-- 从蓝之青论坛偷的代码⬇ -->
+        <link rel="shortcut icon" href="http://www.qzxylzq.com/wp-content/uploads/2018/09/2018-09-152.ico">
+        <link rel="stylesheet" type="text/css"  href="index.css"/>
+        <link rel="stylesheet" type="text/css"  href="reset.css"/>
+    </head>
+    <body>
+        <div class="background-image"><img src="picture/bg.png" alt="bg"></div>
+        <div class="image-left"><img src="picture/bl-left.png" alt="balloon left"></div>
+        <div class="title">清泽心雨报名入口</div>
+        <div class="index">
+            <div class="index-border">
+                <img src="picture/index-border.png" alt="">
+            </div>
+            <div class="index-bg">
+                <img src="picture/index-bg.png" alt="">
+            </div>
+            <form method="post" action="save.php" class="list">
+                <div class="conventional-list">
+                    姓名：
+                    <input type="text" name="name" class="input"/>
+                </div>
+                <div class="conventional-list">
+                    性别：
+                    <input type="text" name="gender" class="input"/>
+                </div>
+                <div class="conventional-list">
+                    专业：
+                    <input type="text" name="pofession" class="input"/>
+                </div>
+                <div class="conventional-list">
+                    班级：
+                    <input type="text" name="class" class="input"/>
+                </div>
+                <div class="conventional-list"> 
+                    电话：
+                    <input type="tel" name="tel" class="tel"/>
+                </div>
+                <div class="p">
+                    照片
+                </div>
+                <div class="photo">
+                    <!-- 设置点击图片即可检索本地并上传的功能，但居中仍然未解决 -->
+                    <label for="xFile"><img src="picture/photo.png"></label>
+                    <input type="file" id="xFile" style="position:absolute;clip:rect(0 0 0 0);">
+                </div>
+            </form>
+            <form method="post" action="save.php" class="extend">
+                <div class="choice">
+                    志愿：
+                    <select class="desire">
+                        <option value="general-office">综合办公室</option>
+                        <option value="public-department">公关策划部</option>
+                        <option value="blue-green">网络安全部（蓝之青）</option>
+                        <option value="visual-design">视觉设计部（卡乐坊）</option>
+                        <option value="ued">技术开发部（ued)</option>
+                        <option value="integrated-media-group">综合媒体集团</option>
+                        <option value="news-group">新闻集团</option>
+                        <option value="video-group">视频集团（微效坊、微影像、电视台）</option>
+                    </select>
+                    <select class="desire">
+                        <option value="general-office">综合办公室</option>
+                        <option value="public-department">公关策划部</option>
+                        <option value="blue-green">网络安全部（蓝之青）</option>
+                        <option value="visual-design">视觉设计部（卡乐坊）</option>
+                        <option value="ued">技术开发部（ued)</option>
+                        <option value="integrated-media-group">综合媒体集团</option>
+                        <option value="news-group">新闻集团</option>
+                        <option value="video-group">视频集团（微效坊、微影像、电视台）</option>
+                    </select>
+                </div>
+                <span>填报理由</span>
+                <textarea style="resize:none;" class="reason"></textarea>
+            </form>
+        </div>
+        <div>
+            <label for="">
+                <img src="picture/btn.png" alt="" class="btn">
+                <input type="submit" value="完成" class="p-btn">
+            </label>
+        </div>
+        <div class="image-right">
+            <img src="picture/bl-right.png" alt="balloon right">
+        </div>
+    </body>
+</html>

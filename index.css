@@ -1,0 +1,160 @@
+.title {
+    position: absolute;
+    top: 96px;
+    left: 294px;
+    height: 58px;
+    width: 474px;
+    font-family: "SimHei";
+    font-style: italic;
+    font-size: 47px;
+    color: #ffffff;
+}
+
+
+.image-left{
+    position: absolute;
+    top: 28px;
+    left: 188px;
+}
+
+.image-right{
+    position: absolute;
+    top: 255px;
+    left: 1394px;
+    }
+
+.index-border {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.index-bg {
+    position: absolute;
+    top: 210px;
+    left: 510px;
+}
+
+.list{
+    position: absolute;
+    top: 293px;
+    left: 577px;
+    width: 546px;
+    font-family: "SimHei";
+    font-size: 23px;
+    text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+    color: rgb(32, 32, 32);
+}
+
+.conventional-list{
+    margin: 21px;
+    float: left;
+}
+
+.photo{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    width: 169px;
+    height: 205px;
+    background-color: #ffffff;
+    border: 0px;
+    /* 此处控制圆角弧度 */
+    border-radius:25px;
+}
+
+.input{
+    border: 0px;
+    border-radius: 25px;
+    height: 42px;
+    width: 150px;
+}
+.tel {
+    border: 0px;
+    border-radius: 25px;
+    height: 42px;
+    width: 420px;
+}
+
+.p{
+    position: absolute;
+    top: 100px;
+    left: 568px;
+    width: 36px;
+    height: 142px;
+}
+
+.extend{
+    font-family: "SimHei";
+    font-size: 23px;
+    text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+    color: rgb(32, 32, 32);
+}
+
+.desire{
+    border: 0px;
+    border-radius:25px;
+}
+
+.choice{
+    position: absolute;
+    top: 578px;
+    left: 600px;
+}
+
+option{
+    height: 42px;
+    width: 306px;
+}
+
+/* 取消原本的下拉箭头 */
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* 这里失败的尝试使用伪元素更换箭头，但仍然具有一定参考性，故有所保留。最后我也没有选择将原来的箭头还原 */
+select.desire:after{
+    content: "";
+    width: 31px;
+    height: 17px;
+    background: url(picture/arrow.png) no-repeat center;
+    /* 通过定位将图标放在合适的位置 */ 
+    position: absolute; 
+    right: 20px; 
+    top: 45%;
+    /* 给自定义的图标实现点击下来功能 */
+    pointer-events: none;
+}
+
+span{
+    position: absolute;
+    top: 640px;
+    left: 923px;
+}
+.reason{
+    position: absolute;
+    top: 680px;
+    left:585px;
+    width: 782px;
+    height: 111px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+.btn{
+    position: absolute;
+    top: 793px;
+    left: 882px;
+}
+.p-btn{
+    position: absolute;
+    top: 805px;
+    left: 929px;
+    font-size: 30px;
+    font-family: "SimHei";
+    color: #ffffff;
+    border:0px;
+    background: none;
+}
